@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
 
 function Contact() {
   const {
@@ -9,14 +10,25 @@ function Contact() {
     formState: { errors },
   } = useForm();
 
+  const navigate = useNavigate();
+
   const onSubmit = (data) => {
     console.log("Message Sent:", data);
     reset(); // clear form after submit
+    navigate("/"); // 👈 redirect to homepage
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 bg-slate-800">
-      <div className="bg-white shadow-xl p-8 rounded-xl max-w-md w-full">
+      <div className="bg-white shadow-xl p-8 rounded-xl max-w-md w-full relative">
+        {/* ❌ Close Button */}
+        <button
+          onClick={() => navigate("/")}
+          className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 bg-black"
+        >
+          ✕
+        </button>
+
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Contact Us</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           {/* Name */}
