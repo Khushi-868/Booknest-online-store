@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 function Contact() {
   const {
@@ -14,8 +15,11 @@ function Contact() {
 
   const onSubmit = (data) => {
     console.log("Message Sent:", data);
-    reset(); // clear form after submit
-    navigate("/"); // 👈 redirect to homepage
+    toast.success("Message sent successfully! ✅");
+    reset();
+    setTimeout(() => {
+      navigate("/");
+    }, 2000); // slight delay before navigating
   };
 
   return (
@@ -24,12 +28,13 @@ function Contact() {
         {/* ❌ Close Button */}
         <button
           onClick={() => navigate("/")}
-          className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 bg-black"
+          className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 bg-black text-white"
         >
           ✕
         </button>
 
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Contact Us</h2>
+
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           {/* Name */}
           <div>
