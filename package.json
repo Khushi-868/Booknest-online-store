@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon Backened/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
+    "start": "nodemon Backened/index.js",
+    "build": "npm install  && npm install --prefix Frontend && npm run build --prefix Frontend"
+   
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0",
+    "express": "^4.18.3",
     "mo": "^1.7.3",
     "mongoose": "^8.13.2",
     "nodemon": "^3.1.9",
