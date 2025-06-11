@@ -1,0 +1,244 @@
+
+[
+    {
+      "id": 1,
+      "name": "Story Book",
+      "title": "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 2,
+      "name": "Adventure Tales",
+      "title": "Exploring hidden islands and ancient ruins",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 3,
+      "name": "Math Genius",
+      "title": "Master numbers with puzzles and formulas",
+      "price": 99,
+      "category": "Education",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 4,
+      "name": "Science Lab",
+      "title": "Fun experiments and science facts",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 5,
+      "name": "Fantasy Kingdom",
+      "title": "Wizards, dragons, and magical worlds await",
+      "price": 120,
+      "category": "Fantasy",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 6,
+      "name": "Code Starter",
+      "title": "Learn coding with easy Python programs",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 7,
+      "name": "English Basics",
+      "title": "Grammar, vocabulary and reading practice",
+      "price": 60,
+      "category": "Education",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 8,
+      "name": "Myth Busters",
+      "title": "Debunk myths with logic and evidence",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 9,
+      "name": "Travel Diaries",
+      "title": "Journey through countries and cultures",
+      "price": 150,
+      "category": "Travel",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 10,
+      "name": "Digital Art",
+      "title": "Design, draw and paint with digital tools",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 11,
+      "name": "Healthy Living",
+      "title": "Eat well, move more, sleep better",
+      "price": 90,
+      "category": "Lifestyle",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 12,
+      "name": "History Tales",
+      "title": "Explore the past with engaging stories",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 13,
+      "name": "Space Quest",
+      "title": "Rocket into space and explore galaxies",
+      "price": 135,
+      "category": "Science",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 14,
+      "name": "Story of Art",
+      "title": "From cave paintings to modern art",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 15,
+      "name": "The Green Planet",
+      "title": "Learn about plants and ecosystems",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 16,
+      "name": "Robotics Guide",
+      "title": "Build your first robot step-by-step",
+      "price": 199,
+      "category": "Technology",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 17,
+      "name": "Startup Manual",
+      "title": "Everything you need to launch your idea",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 18,
+      "name": "Music Vibes",
+      "title": "Understand music theory and instruments",
+      "price": 75,
+      "category": "Art",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 19,
+      "name": "Eco Warriors",
+      "title": "Join the mission to save the Earth",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 20,
+      "name": "Mind Games",
+      "title": "Train your brain with riddles and logic",
+      "price": 85,
+      "category": "Puzzle",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 21,
+      "name": "The Lost Map",
+      "title": "A thrilling treasure hunt across continents",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 22,
+      "name": "Digital Dreams",
+      "title": "Tech innovations changing our lives",
+      "price": 130,
+      "category": "Technology",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 23,
+      "name": "Sketch World",
+      "title": "Improve your drawing skills",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 24,
+      "name": "Jungle Stories",
+      "title": "Tales of survival and adventure in forests",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 25,
+      "name": "Peaceful Mind",
+      "title": "Meditation and mindfulness basics",
+      "price": 50,
+      "category": "Self-help",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 26,
+      "name": "Hidden Codes",
+      "title": "Crack puzzles and secret messages",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 27,
+      "name": "Cooking Time",
+      "title": "Fun recipes for kids and beginners",
+      "price": 110,
+      "category": "Cooking",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 28,
+      "name": "Alphabet Adventure",
+      "title": "Learn A to Z with a twist of fun",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 29,
+      "name": "The Magic Spell",
+      "title": "Cast spells and make potions",
+      "price": 145,
+      "category": "Fantasy",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    },
+    {
+      "id": 30,
+      "name": "Ocean Depths",
+      "title": "Discover the mysteries of the sea",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/premium-vector/book-stack-vector-illustration-concept_1253202-12458.jpg?uid=R203900041&ga=GA1.1.1068446930.1749635181&semt=ais_hybrid&w=740"
+    }
+  ]
+  

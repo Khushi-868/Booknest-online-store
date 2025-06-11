@@ -28,7 +28,7 @@ app.use("/book" ,bookRoute)
 app.use("/user" ,userRoute)
 // for deployment
 app.use(express.static(path.join(__dirname,"/Frontend/dist")));
-app.get('*',(req,res)=>{
+app.get('*',(_,res)=>{
   res.sendFile(path.resolve(__dirname,"Frontend","dist","index.html"));
 })
 
