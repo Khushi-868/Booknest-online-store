@@ -49,6 +49,11 @@ function Navbar() {
       <li>
         <a href="/about">About</a>
       </li>
+      {authUser?.role === "admin" && (
+      <li>
+        <a href="/admin">Admin</a>
+      </li>
+    )}
     </>
   );
   return (

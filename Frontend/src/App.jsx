@@ -7,6 +7,8 @@ import Courses from './courses/Courses';
 import About from '../src/components/About'
 import toast, { Toaster } from 'react-hot-toast';
 import {useAuth} from "./context/AuthProvider"
+import AdminDashboard from "./admin/AdminDashboard";
+
 function App() {
   const [authUser,setAuthUser]=useAuth();
   console.log(authUser);
@@ -19,6 +21,18 @@ function App() {
        < Route path="/signup" element={<Signup/> }/>
        < Route path="/contact" element={<Contact/> }/>
        < Route path="/about" element={<About/> }/>
+      <Route
+  path="/admin"
+  element={
+    authUser && authUser.role === "admin" ? (
+      <AdminDashboard />
+    ) : (
+      <Navigate to="/" />
+    )
+  }
+/>
+
+
       </Routes>
       <Toaster/>
     </div>
