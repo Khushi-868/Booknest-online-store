@@ -7,7 +7,7 @@ import Courses from './courses/Courses';
 import About from '../src/components/About'
 import toast, { Toaster } from 'react-hot-toast';
 import {useAuth} from "./context/AuthProvider"
-import AdminDashboard from "./admin/AdminDashboard";
+
 
 function App() {
   const [authUser,setAuthUser]=useAuth();
