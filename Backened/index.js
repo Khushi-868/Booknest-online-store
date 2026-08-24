@@ -10,13 +10,14 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-dotenv.config();
+dotenv.config({ path: "./Backened/.env" });
+console.log("Mongo URI loaded:", !!process.env.MongoDBURI);
 const PORT=process.env.PORT || 4001;
 const URI =process.env.MongoDBURI;
 
 // connect to mongoDB
 try{
-   mongoose.connect(URI);
+   await mongoose.connect(URI);
    console.log("Connected to mongoDB");
 }catch(error)
 {
